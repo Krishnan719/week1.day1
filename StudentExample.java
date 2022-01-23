@@ -1,15 +1,20 @@
 package assignments.week1.day1;
 
 public class StudentExample {
-	String name;
-	short rollNo;
+	String name="Krishnan";
+	short rollNo=29;
+
 	public void college() {
-		String name;
+		String name="Rajan";
+		System.out.println(name);
 	}
+
 	public static void main(String[] args) {
-		StudentExample example=new StudentExample();
+		StudentExample example = new StudentExample();
 		example.college();
-		System.out.println(example.name);
-		System.out.println(example.rollNo);
+		String name2 = example.name;
+		System.out.println(name2);
+		short rollNo2 = example.rollNo;
+		System.out.println(rollNo2);
 	}
 }
